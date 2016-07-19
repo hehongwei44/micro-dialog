@@ -1,0 +1,88 @@
+#jfz_dialog {background: #FFF;box-shadow: 1px 1px 2px rgba(0, 0, 0, .4); box-shadow: 1px 1px 2px rgba(0, 0, 0, .4); z-index: 1001;
+    width: 450px; display: none;}
+#jfz_dialog .dialog_title { height: 30px; padding-top: 10px; overflow: hidden; font-size: 14px; color: #FFF; background: #2B8CC9; }
+#jfz_dialog .dialog_title i.icon { width: 10px; height: 16px; line-height: 16px; margin: 1px 5px 0 15px; background: url(sprite.png) no-repeat -90px -70px; *margin-top: 0px; }
+#jfz_dialog .dialog_title a { width: 21px; height: 21px; margin-right: 13px; background: url(sprite.png) no-repeat; background-position: -90px -40px;float: right; }
+#jfz_dialog .dialog_title a:hover { background-position: -90px -10px; }
+#jfz_dialog .alert_body {width: 340px; padding:50px 55px 55px; overflow: hidden;}
+#jfz_dialog .alert_body i.icon {display: block; width: 72px; height: 72px; margin: -36px 20px 0 0; background: url(sprite.png) no-repeat; position: absolute; top: 50%; left: 60px;*zoom:1; }
+#jfz_dialog .alert_body i.i_right { background-position: -10px -10px; }
+#jfz_dialog .alert_body i.i_warn { background-position: -10px -90px; }
+#jfz_dialog .alert_body i.i_error { background-position: -10px -170px; }
+#jfz_dialog .alert_body .dialog_info {padding-left: 92px; line-height: 24px; font-weight: bolder; font-size: 14px; color:#525252;}
+#jfz_dialog .alert_body .dialog_info .col_orange {color: #FF6600;}
+/* 抽奖对话框时要添加这个样式 */
+#jfz_dialog .dialog_btn { height: 60px; padding-top: 20px; background: #F7F7F7; text-align: center; }
+#jfz_dialog .dialog_btn .award_link,
+#jfz_dialog .dialog_btn .btn_order { width: 130px; height: 40px; line-height: 40px; background: #FF7200; font-size: 14px; color: #FFF; border: none; }
+#jfz_dialog .dialog_btn .award_link:hover,
+#jfz_dialog .dialog_btn .btn_order:hover { background: #D93600; text-decoration: none; }
+#jfz_dialog .dialog_btn .link2 { color: #2B8CC9; margin-left: 15px; }
+#jfz_dialog .dialog_btn .link2:hover { color: #FF6600; }
+#jfz_dialog .dialog_btn .btn { width: 130px; height: 40px; line-height: 40px; font-size: 14px; color: #FFF; }
+#jfz_dialog .dialog_btn .c1 { background: #2B8CC9; }
+#jfz_dialog .dialog_btn .c1:hover { background: #257BB4; }
+#jfz_dialog .dialog_btn .c2 { background: #FF7200; }
+#jfz_dialog .dialog_btn .c2:hover { background: #D93600; }
+#jfz_dialog .dialog_title .comy_name { color: #FFFF66; padding-right: 10px; }
+#jfz_dialog .order_wrap { padding: 15px 75px; }
+#jfz_dialog .order_wrap p { position: relative; margin: 10px 0; _width: 300px; }
+#jfz_dialog .order_wrap .lbl { color: #525252; font-size: 14px; }
+#jfz_dialog .order_wrap .ipt { width: 220px; height: 18px; line-height: 18px; padding: 10px 0; border: 1px solid #DFDFDF; background: #FFF; text-indent: 5px; vertical-align: middle; }
+#jfz_dialog .order_wrap input.focus { border: 1px solid #0199CC; -moz-box-shadow: 1px 1px 2px rgba(1, 153, 204, .4); -webkit-box-shadow: 1px 1px 2px rgba(1, 153, 204, .4); box-shadow: 1px 1px 2px rgba(1, 153, 204, .4); }
+#jfz_dialog .order_wrap input.err { border: 1px solid #E86A6A; -moz-box-shadow: 1px 1px 2px rgba(232, 106, 106, .4); -webkit-box-shadow: 1px 1px 2px rgba(232, 106, 106, .4); box-shadow: 1px 1px 2px rgba(232, 106, 106, .4); }
+#jfz_dialog .order_wrap .icon { position: absolute; right: 15px; top: 10px; width: 21px; height: 21px; background: url(sprite.png) no-repeat; }
+#jfz_dialog .order_wrap .i_right { background-position: -90px -90px; }
+#jfz_dialog .order_wrap .i_err { background-position: -90px -120px; }
+#jfz_dialog .err_wrap { position: absolute; right: -145px; top: 60px; width: 175px; height: 110px; padding: 0 17px; border: 1px solid #D1D1D1; background: #FFF; -moz-box-shadow: 1px 1px 2px rgba(209, 209, 209, .4); -webkit-box-shadow: 1px 1px 2px rgba(209, 209, 209, .4); box-shadow: 1px 1px 2px rgba(209, 209, 209, .4); border-radius: 5px; }
+#jfz_dialog .err_wrap .err_tip { position: relative; padding: 10px 0; border-bottom: 1px dashed #E1E1E1; }
+#jfz_dialog .err_wrap .icon { position: absolute; left: -5px; top: 11px; width: 21px; height: 21px; background: url(sprite.png) no-repeat; }
+#jfz_dialog .err_wrap .err_info { padding-top: 7px; }
+#jfz_dialog .err_wrap .c2 { color: #E76868; padding-left: 23px; font-size: 14px; }
+#jfz_dialog .err_wrap .c3 { color: #999999; }
+#jfz_dialog .err_wrap .i_right { background-position: -90px -90px; }
+#jfz_dialog .err_wrap .i_err { background-position: -90px -120px; }
+#jfz_dialog .err_wrap .arrow { width: 0; height: 0; border-width: 8px 8px 8px 0px; border-style: dashed solid dashed none; overflow: hidden; position: absolute; top: 10px; left: -8px; }
+#jfz_dialog .err_wrap .arrow_1 { border-color: transparent #D1D1D1 transparent transparent; }
+#jfz_dialog .err_wrap .arrow_2 { border-color: transparent #FFF transparent transparent; left: -7px; }
+#jfz_dialog .order_tip { height: 37px; line-height: 37px; text-align: center; border: 1px dashed #FFCC99; border-width: 1px 0; background: #FFFDD9; color: #FF6600; }
+#jfz_dialog .award_tip { height: 78px; background: #FFFDD9; border-bottom: 1px dashed #FFCC99; text-align: center; color: #FF6600; }
+#jfz_dialog .award_tip p { padding-top: 10px; }
+#jfz_dialog .award_tip .strong { font-size: 14px; }
+#jfz_dialog .phone_wrap { padding: 30px 0; text-align: center; }
+#jfz_dialog .phone_wrap .lbl { color: #525252; font-size: 14px; }
+#jfz_dialog .phone_wrap .ipt { width: 220px; height: 18px; line-height: 18px; padding: 10px 0; border: 1px solid #DFDFDF; background: #F7F7F7; text-indent: 5px; vertical-align: middle; }
+/* 期货营业部改变新增的对话框 */
+#jfz_dialog .cityWide-body { padding: 0; }
+.cityWide-body .cityWide-list li { float: left; width: 50%; padding: 10px 0; border-bottom: 1px dashed #E1E1E1; }
+.cityWide-body .cityWide-list p { padding-left: 15px; }
+.cityWide-body .dept-name { font-size: 14px; color: #656565; }
+.cityWide-body .dept-evaluate { font-size: 14px; font-weight: bolder; color: #F20000; }
+.cityWide-body .dept-add { color: #0F95EB; }
+.cityWide-body .dept-more { padding: 10px 20px; text-align: right; }
+.cityWide-body .more { color: #2B8BC9; }
+#jfz_dialog .orderFlow-body { padding: 0; }
+.orderFlow-body .orderFlow-wrap { }
+.orderFlow-body .orderFlow-list li { border-bottom: 1px dashed #E1E1E1; overflow: hidden; *zoom: 1; }
+.orderFlow-body .flow1 { position: relative; float: left; width: 133px; padding: 10px 0; text-align: center; font-size: 14px; color: #2B8BC9; background-color: #F7F7F7; }
+.orderFlow-body .flow2 { float: left; padding: 10px 30px; color: #656565; background-color: #FFFFFF; }
+.orderFlow-body .flow3 { float: left; padding: 10px 0px; color: #656565; background-color: #FFFFFF; }
+.orderFlow-body .phone { color: #2B8BC9; }
+.orderFlow-body .c1 { color: #EB9B3F; }
+.orderFlow-body .circle { position: absolute; right: -15px; top: 5px; width: 30px; height: 30px; text-align: left; text-indent: 10px; font: normal 12px/28px 'Microsoft Yahei'; color: #FFF; text-align: left; background: url(../image/jfz-dialog/circle1.png) no-repeat; }
+.orderFlow-body .c1 .circle { background: url(../image/jfz-dialog/circle2.png) no-repeat; }
+.orderFlow-body .orderFlow-ft { padding: 10px 30px; }
+.orderFlow-body .orderFlow-ft .squ-com { display: inline-block; width: 13px; height: 13px; margin-right: 5px; vertical-align: middle; *display: inline; *zoom: 1; }
+.orderFlow-body .orderFlow-ft em.square1 { background-color: #2B8CC9; }
+.orderFlow-body .orderFlow-ft em.square2 { background-color: #EB9C40; }
+.orderFlow-body .orderFlow-ft .tip { margin-right: 10px; }
+/*wx*/
+.alert_body_wx{ padding: 22px 0; font-size: 14px;}
+.alert_body_wx .icon{display: block;width: 72px;height: 72px;margin:0 auto;background: url(sprite.png) no-repeat;}
+.alert_body_wx .i_right{margin-bottom: 10px; background-position: -10px -10px;}
+.alert_body_wx .wx_box{}
+.alert_body_wx .wx_box_left{ float: left; width: 230px; text-align: center;}
+.alert_body_wx .wx_box_right{ float:left; width: 215px; padding-top: 30px; text-align: center;}
+.alert_body_wx .wx_img_wrap{ width: 146px; height: 146px; margin: 0 auto; background: url(../../../img/common/wx_cf_146.gif) no-repeat;}
+.alert_body_wx .dialog_info{ line-height: 2em;}
+.alert_body_wx .dialog_info_right{ line-height: 2em; font-weight:bold; color: #009C0D;}

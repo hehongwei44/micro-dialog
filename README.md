@@ -28,7 +28,7 @@
 * loadByIframe: 加载iframe框架.配置参数见源码.
 * draw: 居中显示对话框.
 
-##LiENCE
+##License
 
 代码开源无限制，欢迎大家讨论，提出问题
 
